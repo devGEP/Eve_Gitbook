@@ -28,3 +28,4 @@
     * [OddOccurencesInArray \[100%\]](codility/lesson-2.-arrays/oddoccurencesinarray-100.md)
   * [Lesson 3. Time Complexity](codility/lesson-3.-time-complexity/README.md)
     * [FrogJmp \[100%\]](codility/lesson-3.-time-complexity/frogjmp-100.md)
+    * [PermMissingElem \[100%\]](codility/lesson-3.-time-complexity/permmissingelem-100.md)
