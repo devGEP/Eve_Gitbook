@@ -1,8 +1,8 @@
 ---
-description: '[100%]'
+description: 정수의 이진 표현에서 가장 긴 0 시퀀스를 찾습니다.
 ---
 
-# BinaryGap
+# BinaryGap \[100%]
 
 {% hint style="info" %}
 _양의 정수 N 내의 이진 간격은_ N 의 이진 표현에서 양쪽 끝이 1로 둘러싸인 연속 0의 최대 시퀀스입니다.

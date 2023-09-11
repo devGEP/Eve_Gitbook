@@ -1,8 +1,8 @@
 ---
-description: '[55% -> 100%]'
+description: 홀수 개의 요소에서 발생하는 값을 찾습니다.
 ---
 
-# OddOccurencesInArray
+# OddOccurencesInArray \[100%]
 
 {% hint style="info" %}
 N개의 정수로 구성된 비어 있지 않은 배열 A가 제공됩니다. 배열에는 홀수 개의 요소가 포함되어 있으며, 배열의 각 요소는 짝을 이루지 않은 채로 남아 있는 한 요소를 제외하고 동일한 값을 가진 다른 요소와 쌍을 이룰 수 있습니다.

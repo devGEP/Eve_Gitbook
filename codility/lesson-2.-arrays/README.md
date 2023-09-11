@@ -1,5 +1,5 @@
 ---
-description: '[100%] CyclicRotation, 순환 회전'
+description: 배열
 ---
 
 # Lesson 2. Arrays
