@@ -20,3 +20,6 @@
     * [첫 번째 장고 앱 작성하기, Part 4](django/django/part-4.md)
     * [첫 번째 장고 앱 작성하기, Part 5](django/django/part-5.md)
   * [Django 생활코딩 강의](django/django-1.md)
+* [Codility](codility/README.md)
+  * [Lesson 1. Iterations](codility/lesson-1.-iterations.md)
+  * [Lesson 2. Arrays](codility/lesson-2.-arrays.md)
