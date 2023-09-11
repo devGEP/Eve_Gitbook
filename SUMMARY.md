@@ -22,4 +22,5 @@
   * [Django 생활코딩 강의](django/django-1.md)
 * [Codility](codility/README.md)
   * [Lesson 1. Iterations](codility/lesson-1.-iterations.md)
-  * [Lesson 2. Arrays](codility/lesson-2.-arrays.md)
+  * [Lesson 2. Arrays - 1](codility/lesson-2.-arrays-1.md)
+  * [Lesson 2. Arrays - 2](codility/lesson-2.-arrays-2.md)

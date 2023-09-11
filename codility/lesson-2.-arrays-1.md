@@ -2,7 +2,7 @@
 description: '[100%] CyclicRotation, 순환 회전'
 ---
 
-# Lesson 2. Arrays
+# Lesson 2. Arrays - 1
 
 {% hint style="info" %}
 N개의 정수로 구성된 배열 A가 제공됩니다. 배열의 회전은 각 요소가 하나의 인덱스만큼 오른쪽으로 이동하고 배열의 마지막 요소가 첫 번째 위치로 이동함을 의미합니다. 예를 들어, 배열 A = \[3, 8, 9, 7, 6]의 회전은 \[6, 3, 8, 9, 7]입니다(요소는 한 인덱스만큼 오른쪽으로 이동하고 6은 첫 번째 위치로 이동됩니다).
@@ -49,7 +49,7 @@ Codility Limited의 저작권 2009-2023. 판권 소유. 무단복제, 출판, �
 
 
 
-<mark style="background-color:blue;">**문제 풀이**</mark>
+<mark style="background-color:blue;">**접근 방법**</mark>
 
 1. 먼저, 맨 마지막 정수를 temp라는 변수에 저장해두고 수를 한 칸씩 오른쪽으로 미뤘습니다.
 2. 그리고 나서 temp에 저장해두었던, 맨 마지막 정수를 A\[0]에 위치시켰습니다.
@@ -63,6 +63,8 @@ Codility Limited의 저작권 2009-2023. 판권 소유. 무단복제, 출판, �
 처음에는 결과가 87%가 나왔는데, 이유를 찾아보니 A가 빈 배열일 때의 예외 케이스가 있었기 때문입니다. 그래서 `if (len(A) != 0)` 을 넣음으로써 100% 나왔습니다.
 
 
+
+<mark style="background-color:green;">**내가 작성한 코드**</mark>
 
 ```python
 def solution(A, K):
