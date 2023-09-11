@@ -2,7 +2,7 @@
 description: '| (A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1]) | 값을 최소화합니다.'
 ---
 
-# TapeEquilibrium \[53%]
+# TapeEquilibrium \[100%]
 
 {% hint style="info" %}
 N개의 정수로 구성된 비어 있지 않은 배열 A가 제공됩니다. 배열 A는 테이프의 숫자를 나타냅니다.
@@ -82,9 +82,33 @@ def solution(A):
 
 <mark style="background-color:red;">점수: 53%</mark>
 
-*   정확성이나 이런 문제는 없지만, 시간복잡도가 O(N^N)으로 성능 테스트에서 <mark style="color:red;">**TIMEOUT ERROR**</mark>가 났습니다.
+*   정확성이나 이런 문제는 없지만, **시간복잡도가 O(N^N)**으로 성능 테스트에서 <mark style="color:red;">**TIMEOUT ERROR**</mark>가 났습니다.
 
 
 
     <figure><img src="../../.gitbook/assets/스크린샷 2023-09-12 오전 4.01.35.png" alt="" width="326"><figcaption></figcaption></figure>
+* 코드를 어떻게 해야 시간을 줄일 수 있을까 찾아보다가 for문을 굳이 돌릴 필요가 없다는 것을 깨달았습니다.
+* i는 어차피 1씩 증가하게 되고, 이를 left\_sum에 더한만큼이 left\_sum이 되고, right\_sum은 total에서 뺀 값이 되기 때문입니다.&#x20;
+* 그리고 if문도 간결히 해도 괜찮을 거같다는 생각이 들어서 수정하게  되었습니다.
+* 아래 코드의 **시간 복잡도는 O(N)**입니다.
 
+
+
+<mark style="background-color:orange;">**수정한 코드**</mark>
+
+```python
+def solution(A):
+    total_sum = sum(A)
+    left_sum = 0
+    min_difference = float('inf')
+    
+    for i in range(len(A) - 1):  # len(A) - 1까지만 진행하는 이유는 마지막 요소는 오른쪽 부분에 포함되므로 제외
+        left_sum += A[i]
+        right_sum = total_sum - left_sum
+        difference = abs(left_sum - right_sum)
+        
+        if difference < min_difference:
+            min_difference = difference
+    
+    return min_difference
+```
