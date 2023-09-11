@@ -77,7 +77,7 @@ def solution(A):
 
 <mark style="background-color:red;">점수: 55%</mark>
 
-* 시간 복잡도가 이중 반복문을 써서 **O(N^2)**이 나왔다.
+* <mark style="background-color:yellow;">시간 복잡도가 이중 반복문을 써서</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**O(N^2)**</mark>이 나왔다.
 *   그래서 성능 테스트 부분에서 N이 천의 자리 수, 십만 등 수가 클때, 성능 <mark style="color:red;">**TIMEOUT ERROR**</mark>가 나왔다.
 
     <figure><img src="../.gitbook/assets/스크린샷 2023-09-12 오전 1.36.24.png" alt="" width="326"><figcaption></figcaption></figure>
@@ -86,7 +86,7 @@ def solution(A):
 
 <mark style="background-color:orange;">**해결**</mark>
 
-도저히 시간을 줄일 방안이 안 보여서 찾아보았더니 **XOR 연산**이라는게 존재했습니다. 그래서 이를 적용하여 코드를 작성하였더니 코드가 훨씬 줄고 깔끔해졌다.
+도저히 시간을 줄일 방안이 안 보여서 찾아보았더니 **XOR 연산**이라는게 존재했습니다. 그래서 이를 적용하여 코드를 작성하였더니 코드가 훨씬 줄고 깔끔해졌습니다. 그리고 <mark style="background-color:yellow;">**시간복잡도**</mark><mark style="background-color:yellow;">는</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**O(N) or O(N\*log(N))**</mark>으로 나왔습니다.
 
 ```python
 def solution(A):
