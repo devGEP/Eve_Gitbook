@@ -1,8 +1,8 @@
 ---
-description: '[100%] OddOccurencesInArray'
+description: '[55% -> 100%]'
 ---
 
-# Lesson 2. Arrays - 2
+# OddOccurencesInArray
 
 {% hint style="info" %}
 N개의 정수로 구성된 비어 있지 않은 배열 A가 제공됩니다. 배열에는 홀수 개의 요소가 포함되어 있으며, 배열의 각 요소는 짝을 이루지 않은 채로 남아 있는 한 요소를 제외하고 동일한 값을 가진 다른 요소와 쌍을 이룰 수 있습니다.
@@ -80,7 +80,7 @@ def solution(A):
 * <mark style="background-color:yellow;">시간 복잡도가 이중 반복문을 써서</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**O(N^2)**</mark>이 나왔다.
 *   그래서 성능 테스트 부분에서 N이 천의 자리 수, 십만 등 수가 클때, 성능 <mark style="color:red;">**TIMEOUT ERROR**</mark>가 나왔다.
 
-    <figure><img src="../.gitbook/assets/스크린샷 2023-09-12 오전 1.36.24.png" alt="" width="326"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/스크린샷 2023-09-12 오전 1.36.24.png" alt="" width="326"><figcaption></figcaption></figure>
 
 
 
@@ -97,4 +97,4 @@ def solution(A):
     return result
 ```
 
-<figure><img src="../.gitbook/assets/스크린샷 2023-09-12 오전 1.59.51.png" alt="" width="326"><figcaption><p>확실히 시간이 줄어든 것을 알 수 있다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2023-09-12 오전 1.59.51.png" alt="" width="326"><figcaption><p>확실히 시간이 줄어든 것을 알 수 있다.</p></figcaption></figure>

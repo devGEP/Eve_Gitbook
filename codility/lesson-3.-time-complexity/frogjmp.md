@@ -1,8 +1,8 @@
 ---
-description: '[100%] FrogJmp'
+description: '[44% -> 100%]'
 ---
 
-# Lesson 3. Time Complexity
+# FrogJmp
 
 {% hint style="info" %}
 작은 개구리가 길 반대편으로 가고 싶어합니다. 개구리는 현재 X 위치에 있으며 Y보다 크거나 같은 위치로 이동하려고 합니다. 작은 개구리는 항상 고정된 거리 D만큼 점프합니다.
@@ -34,6 +34,8 @@ X = 10 Y = 85 D = 30
 
 Codility Limited의 저작권 2009-2023. 판권 소유. 무단복제, 출판, 공개를 금지합니다.
 {% endhint %}
+
+
 
 <mark style="background-color:blue;">**접근 방법**</mark>
 
