@@ -30,3 +30,5 @@
     * [FrogJmp \[100%\]](codility/lesson-3.-time-complexity/frogjmp-100.md)
     * [PermMissingElem \[100%\]](codility/lesson-3.-time-complexity/permmissingelem-100.md)
     * [TapeEquilibrium \[100%\]](codility/lesson-3.-time-complexity/tapeequilibrium-100.md)
+  * [Lesson 4. Counting Elements](codility/lesson-4.-counting-elements/README.md)
+    * [FrogRiverOne \[100%\]](codility/lesson-4.-counting-elements/frogriverone-100.md)
