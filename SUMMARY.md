@@ -32,3 +32,4 @@
     * [TapeEquilibrium \[100%\]](codility/lesson-3.-time-complexity/tapeequilibrium-100.md)
   * [Lesson 4. Counting Elements](codility/lesson-4.-counting-elements/README.md)
     * [FrogRiverOne \[100%\]](codility/lesson-4.-counting-elements/frogriverone-100.md)
+    * [PermCheck \[100%\]](codility/lesson-4.-counting-elements/permcheck-100.md)
